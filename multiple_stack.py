@@ -39,6 +39,8 @@ def solve(arr):
 			arr.insert(top[indx]+1, op[1])
 			for i in range(indx, len(top)):
 				top[i] += 1
+        
+        #printing deleted values in sorted order
 	temp.sort()				
 	print('Deleted elements are: ')
 	print(*temp)
