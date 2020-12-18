@@ -11,7 +11,7 @@ int main()
   sub_i = a-b;
   sum_f = c+d;
   sub_f = c-d;
-  printf("%d %d", sum_i, sub_i);
+  printf("%d %d\n", sum_i, sub_i);
   printf("%d %d",sum_f, sub_f);
   return 0;
 }
