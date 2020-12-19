@@ -6,7 +6,8 @@ int main(){
 	scanf("%d",&t);
 	for(int i=0; i<t; ++i){
 		scanf("%d",&n);
-		int var, bob_w=0, bob_l=0;
+		int bob_w=0, bob_l=0;
+		long long int var;
 		for(int j=0; j<n; ++j){
 			scanf("%d",&var);
 			
@@ -17,7 +18,7 @@ int main(){
 			else if(var>0)
 				++bob_l;
 		}
-		if(bob_w or bob_l)
+		if(bob_w || bob_l)
 		{
 			printf("Bob wins in the game %d times.\n",bob_w);
 			printf("Bob loses in the game %d times.\n",bob_l);
@@ -27,5 +28,5 @@ int main(){
 		}
 
 	}
-	return 0
+	return 0;
 }
