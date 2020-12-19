@@ -7,5 +7,8 @@ for _ in range(int(input())):
 			win += 1
 		elif elem > 0:
 			lose += 1
-	print(f'Bob wins in the game {win} times.')
-	print(f'Bob loses in the game {lose} times.')
+	if win or lose:
+		print(f'Bob wins in the game {win} times.')
+		print(f'Bob loses in the game {lose} times.')
+	else:
+		print("Game not possible")
