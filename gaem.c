@@ -20,10 +20,10 @@ int main(){
 		if(bob_w or bob_l)
 		{
 			printf("Bob wins in the game %d times.\n",bob_w);
-			printf("Bob loses in the game %d times.",bob_l);
+			printf("Bob loses in the game %d times.\n",bob_l);
 		}
 		else{
-			printf("Game not possible");
+			printf("Game not possible\n");
 		}
 
 	}
