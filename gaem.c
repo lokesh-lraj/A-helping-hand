@@ -10,11 +10,11 @@ int main(){
 		for(int j=0; j<n; ++j){
 			scanf("%d",&var);
 			
-			if(var <= 0);
-			
+			if(var <= 0){
+			}			
 			else if(var%5 == 3 || var%5 == 0)
 				++bob_w;
-			else
+			else if(var>0)
 				++bob_l;
 		}
 		if(bob_w or bob_l)
