@@ -3,7 +3,7 @@ for _ in range(int(input())):
 	arr = list(map(int, input().strip().split()))
 	win, lose = 0, 0
 	for elem in arr:
-		if elem%5 == 0 or elem%5 == 3:
+		if elem != 0 and (elem%5 == 0 or elem%5 == 3):
 			win += 1
 		elif elem > 0:
 			lose += 1
